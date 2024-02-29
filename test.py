@@ -95,4 +95,4 @@ def plot_pca(data):
     ax1.plot(data_resc[:, 0], data_resc[:, 1], '.', mfc=clr1, mec=clr1)
     MPL.show()
 
-plot_pca(x)
+plot_pca(data)
