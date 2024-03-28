@@ -94,6 +94,6 @@ def plot_pca(data):
     data_resc = pca(data, 3)[0]
     ax1.plot(data_resc[:, 0], data_resc[:, 1], '.', mfc=clr1, mec=clr1)
     #MPL.show()
-    MPL.savefig('test.png')
+    MPL.savefig('results.png')
 data = x
 plot_pca(data)
