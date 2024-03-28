@@ -50,8 +50,8 @@ from numpy import array, dot, mean, std, empty, argsort
 from numpy.linalg import eigh, solve
 from numpy.random import randn
 from matplotlib.pyplot import subplots, show
-data = genfromtxt(('IRISTEST.csv'), delimiter=',')
-data = data[:,:-1]
+#data = genfromtxt(('IRISTEST.csv'), delimiter=',')
+#data = data[:,:-1]
 
 def cov(X):
     """
@@ -95,5 +95,5 @@ def plot_pca(data):
     ax1.plot(data_resc[:, 0], data_resc[:, 1], '.', mfc=clr1, mec=clr1)
     #MPL.show()
     MPL.savefig('test.png')
-
+data = x
 plot_pca(data)
