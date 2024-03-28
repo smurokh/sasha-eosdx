@@ -50,7 +50,7 @@ from numpy import array, dot, mean, std, empty, argsort
 from numpy.linalg import eigh, solve
 from numpy.random import randn
 from matplotlib.pyplot import subplots, show
-data = genfromtxt(('IRISTEST.CSV'), delimiter=',')
+data = genfromtxt(('IRISTEST.csv'), delimiter=',')
 data = data[:,:-1]
 
 def cov(X):
